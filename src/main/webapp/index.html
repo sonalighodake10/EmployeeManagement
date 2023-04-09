@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+<div>
+<center>
+<form method="post" action="employee">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+   <h4 style="color:white"  text-align="center">Employee Registration</h4>
+  </div>
+</nav>
+<br>
+
+<div class="form-group col-sm-4">
+<label>EmployeeId</label>
+<input type="text" name="EmployeeId"  class="form-control" id="EmployeeId" placeholder="Enter your EmployeeId">
+</div>
+
+<div class="form-group col-sm-4">
+<label>Name</label>
+<input type="text" name="Name"  class="form-control" id="Name" placeholder="Enter your Name" Required>
+</div>
+
+<div class="form-group col-sm-4">
+<label>Address</label>
+<input type="text" name="Address" id="Address" class="form-control" placeholder="Enter your Address" maxlength="150" >
+</div>
+
+<div class="form-group col-sm-4">
+<label>Gender</label><br>
+<input type="Radio" name="Gender" value="Male" Required> Male
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+<input type="Radio" name="Gender" value="Female"> Female<br>
+</div>
+
+<div class="form-group col-sm-4">
+<label>Salary</label>
+<input type="text" name="Salary" class="form-control" id="Salary" placeholder="Enter your Salary" max="5" >
+</div>
+
+<div class="form-group col-sm-4">
+<label>BirthDate</label>
+<input type="Date" name="BirthDate" class="form-control" id="BirthDate" placeholder="select your birthdate" Required>
+</div>
+
+<button type="submit" class="btn btn-success">Submit</button>
+<button type="Reset" class="btn btn-secondary">Reset</button>
+<br>
+
+
+
+
+
+</form>
+</center>
+<a href="view"><button align="left" class="btn btn-primary d-block">View Employee</button></a>
+</div>
+</body>
+</html>
